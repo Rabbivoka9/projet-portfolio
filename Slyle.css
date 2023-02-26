@@ -24,13 +24,13 @@
 
 .block {
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px; 
   visibility: visible;
   height: 50px;
   justify-content: center;
   align-items: center;
   gap: 625px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .lien-about, .lien-competence {
@@ -54,7 +54,7 @@
   display: flex;
   width: 1089px;
   height: 478px;
-  margin: auto;
+  /* margin: auto; */
   justify-content: center;
   align-items: center;
 }
@@ -120,6 +120,10 @@ a {
   margin-top: 5px;
   border: none;
   font-size: 20px;
+  border-radius: 15px 5px;
+}
+.btn-2:hover{
+  background-color: black;
 }
 .ic{
   width: 50px;
@@ -161,10 +165,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 700px;
-  width: 1000px; */
-  margin: auto;
-  margin-top: 88px;
+  height: 600px;
+  width: 1000px; 
+  /* margin: auto; */
+  margin-top: 88px; 
   border-radius: 20px 20px;
 }
 
@@ -182,6 +186,7 @@ a {
 
 .groupeCompe {
   width: 450px;
+  border: solid 2px black;
 }
 
 .blockCode {
@@ -199,6 +204,13 @@ a {
   color: white;
   font-weight: bold;
   border: none;
+  border-radius: 15px 5px;
+}
+.cv:hover{
+  background-color: white;
+  color: black;
+  border:  solid 2px #FE5B02;
+  border-radius: 15px 5px;
 }
 
 .sk {
@@ -221,7 +233,7 @@ a {
   /* background: linear-gradient(0deg,#FE5B02 80%,  #fff 20%); */
   height: 630px;
   width: 1700px; 
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .int {
@@ -253,9 +265,15 @@ a {
   justify-content: center;
   font-size: 40px;
   font-weight: bold;
+  background-color: white;
+  color: black;
+  text-decoration-style: none;
+  
   /* margin-top: 20px; */
 }
-
+a{
+  text-decoration-style: none;
+}
 .para {
   text-decoration: none;
   font-size: 10px;
@@ -295,6 +313,13 @@ form {
   color: white;
   margin-top: 9px;
   font-size: 15px;
+  border-radius: 10px 5px;
+  
+}
+.btn_Send:hover{
+  background-color: black;
+  color: #FE5B02;
+  border-radius: 10px 5px;
 }
 
 .mail {
@@ -360,18 +385,8 @@ input {
   align-items: center;
   gap: 9px;
 }
-
-.icon1 {
-  width: 40px;
-  height: 40px;
-}
-
-.copie {
-  margin-top: 18px;
-  width: 242px;
-  height: 24px;
-  font-size: 7px;
-}
+.cont2, .skil2{
+  text-decoration: none;}
 
 .iconwhatsapp, .iconMail {
   width: 80px;
@@ -398,7 +413,7 @@ input {
 
 .icon {
   display: flex;
-  /* margin-top: 25px; */
+   margin-top: 15px; 
   width: 155px;
   height: 41px;
   justify-content: center;
@@ -409,15 +424,18 @@ input {
   width: 40px;
   height: 40px;
 }
+.icon1:hover{
+  border: solid 3px #FE5B02;
+}
 
 .copie {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 18px; */
+  margin-top: 10px; 
   width: 742px;
   height: 54px;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 
@@ -655,10 +673,9 @@ input {
   } 
  
   .groupeCompe {
-    /* margin-top: -380px;  */
     width: 275px;
     height: 220px;
-    border: solid 1px black;
+    border: solid 2px black;
   }
   .ic{
     width: 37px;
@@ -719,7 +736,13 @@ input {
     justify-content: center;
     font-size: 30px;
     font-weight: bold;
+    background-color: white;
+    color: black;
+    text-decoration: none;
   }
+  .cont2, .skil2{
+    text-decoration: none;}
+
   .menu_contact {
     display: flex;
     flex-direction: column;

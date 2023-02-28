@@ -16,14 +16,15 @@
             <div class="navbar-1">
               <div class="block">
                 <div class="liste">
-                    <a class="lien-about" href="index.html"><h3 class="gg">About Me</h3></a>
-                    <a class="lien-competence" href="competence.html"><h3 class="gg">Competence</h3></a> 
+                    <a class="lien-about" href="#About"><h3 class="gg">About Me</h3></a>
+                    <a class="lien-competence" href="#skills"><h3 id="skills2" class="gg">Skills</h3></a> 
+                    <a class="lien-competence" href="#latest"><h3 class="gg">Work</h3></a> 
                 </div btn-1>
                 
 
                     <div  class="btnG">
                       
-                      <a href="contact.html"><button class="btn-1"> Contact</button></a>
+                      <a href="#contact"><button id="contact2" class="btn-1"> Contact</button></a>
                       
                     </div>
                   
@@ -34,8 +35,12 @@
             </div>
              
         </div>
-         
-        <div class="presentation">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+      </div>
+        <div></div>
+        <section id="About">
+          <div id="About" class="presentation">
             <div class="identite">
                 <p class="fondname">My name</p>
                 <div class="name">
@@ -58,13 +63,16 @@
                 <img class="imagpro" src="image/VVV.png" alt="">
             </div>
         </div>
-        <div class="latest">
+      </section>
+        
+      <section id="latest">
+        <div id="latest" class="latest">
             <div class="fartitre"> <p>Latest Project</p></div>
             <div class="carous">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" >
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="image/vkm.png" class="d-block w-100" alt="...">
+                        <img  src="image/vkm.png" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
                         <img src="image/Screenshot from 2023-02-21 03-24-42.png" class="d-block w-100" alt="...">
@@ -113,22 +121,36 @@
                 </div>
             </div>
         </div>
-        <div class="competence">
+    </section>
+    <section id="skills">
+      <div  id="skills" class="competence">
           <div class="viva">
             <div class="blockCode">
               <img class="code" src="image/code.png" alt="">
               <button class="cv">Donlowd my Cv</button>
             </div>
             <div class="blockCompe">
-              <h2 class="sk">Skills</h2>
+              <a class="skil2" href="#skills2"><h2 class="sk">Skills</h2></a>
               <img class="groupeCompe" src="image/Group 10.png" alt="">
+              <div class="comico">
+                <img class="ic" src="image/base-de-donnees.png" alt="">
+                <img class="ic" src="image/bureau.png" alt="">
+                <img class="ic" src="image/digital-marketing (1).png" alt="">
+                <img class="ic" src="image/asana.png" alt="">
+                <img class="ic" src="image/photoshop.png" alt="">
+                <img class="ic" src="image/exceller.png" alt="">
+                <img class="ic" src="image/mot.png" alt="">
             </div>
+            </div>
+         
           </div>
         </div>
-        <div class="contact">
+    </section>
+    <section id="contact">
+        <div id="contact" class="contact">
           <div class="int">
             <p class="get">Get in touch</p>
-            <h2 class="cm">Contact Me</h2>
+            <a class="cont2" href="#contact2"><h2 class="cm">Contact Me</h2></a> 
           </div>
           <div class="menu_contact">
             <div class="menu1">
@@ -146,20 +168,21 @@
                 </div>
             </div>
             <div class="smenu2">
-              <h4 class="st">Write me your project</h4>
               <form action="">
                 <label for="">Names</label>
-                <input type="text">
+                <input id="nom" type="text">
                 <label for="">Email</label>
-                <input type="text">
-                <label for="">Projet</label>
-                <input id="projet" type="text">
-                <button class="btn_Send">Send Message</button>
+                <input id="email" type="text">
+                <label  for="">Message</label>
+                <input id="projet" class="message" type="text">
+                <button type="submit" class="btn_Send">Send Message</button>
               </form>
 
             </div>
           </div>
         </div>
+    </section>
+        
           <div class="icon">
             <a href="https://github.com/Rabbivoka9"><img class="icon1" src="image/github(1).png" alt=""></a>
             <a href="https://twitter.com/VokaRabbi"><img class="icon1" src="image/twitter(1).png" alt=""></a>
@@ -168,5 +191,7 @@
         <div class="copie"><p >All rights reserved, 2023 © VKM DEVELLOP, powered by vkm Group</p></div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

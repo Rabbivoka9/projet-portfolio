@@ -511,7 +511,7 @@ input {
   }
   .block {
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     visibility: visible;
     height: 50px;
     justify-content: center;
@@ -676,7 +676,7 @@ input {
     height: 800px;
     width: 390px;
     /* background-color: #FE5B02;  */
-    /* margin-top: 78px;  */
+    margin-top: 78px;  
   } 
   .viva {
     display: flex;
@@ -740,7 +740,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -380px;
+    margin-top: -280px;
     align-items: center;
     text-align: center;
   }
@@ -858,7 +858,7 @@ input {
   }
   .icon {
     display: flex;
-   margin-top: -15px; 
+   margin-top: 385px; 
     width: 155px;
     height: 31px;
     justify-content: center;

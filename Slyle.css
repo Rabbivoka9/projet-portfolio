@@ -1,3 +1,9 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,20 +29,35 @@
 }
 
 .block {
+  position: fixed;
   display: flex;
   margin-top: 20px; 
   visibility: visible;
-  height: 50px;
+  height: 70px;
+  width: 1200px; ;
   justify-content: center;
   align-items: center;
   gap: 625px;
-  /* margin-top: 20px; */
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(146, 161, 176, 0.15);
+ 
+  margin-left: -600px;
 }
 
 .lien-about, .lien-competence {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+.lien-about:hover{
+  color: #FE5B02;
+}
+.lien-competence:hover{
+  color: #FE5B02;
+}
+
+.gg{
+  font-size: 20px;
 }
 
 .btn-1 {
@@ -54,9 +75,10 @@
   display: flex;
   width: 1089px;
   height: 478px;
-  /* margin: auto; */
+  margin: auto; 
   justify-content: center;
   align-items: center;
+  margin-top: 120px;
 }
 
 .identite {
@@ -138,7 +160,7 @@ a {
 }
 
 .latest {
-  /* margin-top: 60px; */
+  margin-top: 90px; 
   width: 782px;
   height: 700px;
   background-color: #FE5B02;
@@ -155,6 +177,8 @@ a {
 }
 
 .carous {
+  display: flex;
+  flex-direction: column;
   height: 400.02px;
   width: 600.98px;
   margin: auto;
@@ -493,6 +517,10 @@ input {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    width: 400px;
+    margin-left: -200px;
+    position: fixed;
+    box-shadow: 0 1px 6px rgba(146, 161, 176, 0.15);
   }
   .liste {
     display: flex;
@@ -522,7 +550,7 @@ input {
     font-weight: bold;
   }
   .presentation {
-    margin-top:-7px;
+    margin-top:90px;
     width: 342px;
     height: 688px;
     display: flex;

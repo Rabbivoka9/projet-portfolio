@@ -30,6 +30,7 @@ body{
 
 .block {
   position: fixed;
+  z-index:999 ;
   display: flex;
   margin-top: 20px; 
   visibility: visible;
@@ -520,6 +521,7 @@ input {
     width: 400px;
     margin-left: -200px;
     position: fixed;
+    z-index:999 ;
     box-shadow: 0 1px 6px rgba(146, 161, 176, 0.15);
   }
   .liste {
